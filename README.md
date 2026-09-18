@@ -1,14 +1,14 @@
-🌦️ Weather App 2
+# 🌦️ Weather App 2
 
 A responsive and interactive weather dashboard built with React,
 JavaScript, Tailwind CSS, and the OpenWeatherMap REST API.
 
-The application allows users to search for cities, view real-time
+## The application allows users to search for cities, view real-time
 weather information and forecasts, save favorite cities, access recent
 searches, switch temperature units, use their current location, refresh
 weather data, and toggle between light and dark themes.
 
-📌 Project Overview
+## 📌 Project Overview
 
 Project Name: weather-app2
 
@@ -18,7 +18,7 @@ Primary Goal: Demonstrate React Hooks, state management, REST
 API integration, reusable components, asynchronous JavaScript,
 browser APIs, local storage, and responsive Tailwind CSS design.
 
-✨ Features
+## ✨ Features
 
 🔍 Search weather by city name
 
@@ -60,7 +60,7 @@ browser APIs, local storage, and responsive Tailwind CSS design.
 
 📱 Responsive mobile, tablet, and desktop UI
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 Technology           Purpose
 
@@ -75,7 +75,7 @@ Lucide React         UI icons
 Local Storage        Favorites and recent searches
 Geolocation API      Current-location weather
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 
 weather-app2/
 │
@@ -103,7 +103,7 @@ weather-app2/
 ├── package-lock.json
 └── vite.config.js
 
-🔄 Application Flow
+## 🔄 Application Flow
 
 User
  │
@@ -135,7 +135,7 @@ Card
  ▼
 Responsive Tailwind UI
 
-⚛️ React Concepts Demonstrated
+## ⚛️ React Concepts Demonstrated
 
 useState
 
@@ -160,7 +160,7 @@ useEffect(() => {
   fetchWeather("Hyderabad");
 }, []);
 
-🌐 API Integration
+## 🌐 API Integration
 
 The application uses the OpenWeatherMap API.
 
@@ -178,7 +178,7 @@ src/services/weatherApi.js
 Promise.all() is used to request current weather and forecast data
 together.
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 
 Create a .env file in the project root:
 
@@ -194,7 +194,7 @@ Add this to .gitignore:
 
 .env
 
-🚀 Installation
+## 🚀 Installation
 
 1. Clone the repository
 
@@ -222,12 +222,12 @@ Open:
 
 http://localhost:5173
 
-📦 Important Packages
+## 📦 Important Packages
 
 npm install lucide-react
 npm install -D tailwindcss @tailwindcss/vite
 
-🧩 Component Responsibilities
+## 🧩 Component Responsibilities
 
 Component                           Responsibility
 
@@ -254,7 +254,7 @@ Loading.jsx                       Loading state
 
 weatherApi.js                     REST API service layer
 
-🎨 UI/UX
+## 🎨 UI/UX
 
 The UI uses Tailwind CSS for:
 
@@ -272,14 +272,14 @@ Light/dark themes
 
 Mobile-friendly controls
 
-⭐ Favorite Cities
+## ⭐ Favorite Cities
 
 Users can add or remove a city using the star button.
 
 Favorites are stored in browser localStorage, allowing them to remain
 available after a refresh.
 
-🕘 Recent Searches
+## 🕘 Recent Searches
 
 Recently searched cities are displayed as quick-search buttons.
 
@@ -288,7 +288,7 @@ Example:
 [Hyderabad] [Mumbai] [Delhi]
 [Chennai]   [Bengaluru]
 
-🌡️ Celsius / Fahrenheit
+## 🌡️ Celsius / Fahrenheit
 
 The application supports:
 
@@ -409,7 +409,7 @@ Verify .env is excluded from Git
 
 🚀 CI/CD deployment workflow
 
-💼 Skills Demonstrated
+## 💼 Skills Demonstrated
 
 HTML
 CSS
@@ -434,33 +434,7 @@ Error Handling
 Loading States
 Git & GitHub
 
-📝 Resume Description
-
-Real-Time Weather Dashboard | React, JavaScript, REST API, Tailwind CSS
-
-Developed a responsive weather dashboard using React Hooks
-(useState, useEffect) and reusable components. Integrated
-OpenWeatherMap REST APIs to fetch real-time weather and multi-day
-forecast data, implementing asynchronous API handling, loading/error
-states, city search, current-location weather, favorites, recent
-searches, Celsius/Fahrenheit conversion, dark mode, and interactive
-forecast cards with responsive Tailwind CSS.
-
-🎤 Interview Explanation
-
-I developed Weather App 2, a responsive weather dashboard using React,
-JavaScript, Tailwind CSS, and the OpenWeatherMap REST API. I divided
-the application into reusable components such as SearchBar,
-WeatherCard, WeatherDetails, Forecast, and Header. I used useState for
-weather, forecast, loading, error, unit, theme, favorites, and
-recent-search state, while useEffect handles the initial API request
-and persistence. I integrated the REST API using async/await and
-Promise.all. I also implemented browser geolocation,
-Celsius/Fahrenheit conversion, localStorage-based favorites and recent
-searches, refresh functionality, dark mode, and interactive forecast
-cards.
-
-📷 Screenshots
+## 📷 Screenshots
 
 After uploading a screenshot to your repository, use:
 
@@ -472,7 +446,7 @@ weather-app2/
 └── screenshots/
     └── weather-app.png
 
-📤 GitHub Commands
+## 📤 GitHub Commands
 
 git init
 git add .
@@ -481,7 +455,7 @@ git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/weather-app2.git
 git push -u origin main
 
-🔒 Security Note
+## 🔒 Security Note
 
 Never commit .env or expose your API key in the repository.
 
@@ -494,7 +468,7 @@ Confirm that .env is not tracked.
 For production, review your weather provider's API-key restrictions and
 consider a backend/proxy architecture when appropriate.
 
-📄 License
+## 📄 License
 
 This project is intended for educational, portfolio, and demonstration
 purposes.
@@ -502,7 +476,7 @@ purposes.
 You may add an MIT License if you want to publish it as an open-source
 project.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Bachina Sai Harshith
 
