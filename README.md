@@ -10,12 +10,6 @@ real-world API integration, React Hooks, state management, reusable
 components, responsive UI, browser geolocation, and client-side
 persistence.
 
-### Resume Description
-
-> Developed a responsive React application using JavaScript, React
-> Hooks, state management, API integration, and Tailwind CSS to display
-> real-time weather information.
-
 ## ✨ Features
 
 -   🔍 Search weather by city
@@ -374,19 +368,6 @@ This project provides practical experience with:
 -   Component architecture
 -   Environment variables
 -   Vite
-
-## 💼 Resume Project Entry
-
-**Real-Time Weather Dashboard \| React, JavaScript, REST API, Tailwind
-CSS**
-
-> Developed a responsive weather dashboard using React Hooks
-> (`useState`, `useEffect`) and reusable components. Integrated
-> OpenWeatherMap REST APIs to fetch real-time weather and multi-day
-> forecast data, implementing asynchronous API handling, loading/error
-> states, city search, current-location weather, favorites, recent
-> searches, Celsius/Fahrenheit conversion, dark mode, and interactive
-> forecast cards with responsive Tailwind CSS.
 
 ## 👨‍💻 Author
 
