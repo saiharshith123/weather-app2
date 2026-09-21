@@ -307,6 +307,11 @@ sm:grid-cols-2
 lg:grid-cols-5
 ```
 
+## 🖥️ Project Outcome
+
+<img width="1557" height="886" alt="image" src="https://github.com/user-attachments/assets/6b350b04-c313-45c0-83ef-cfa76a0d5873" />
+<img width="1560" height="886" alt="image" src="https://github.com/user-attachments/assets/d1ffb665-a8f7-4157-82cb-85b58bfdc028" />
+
 ## 🧪 Testing Checklist
 
 -   [ ] Search a valid city
